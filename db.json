@@ -1,0 +1,103 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Science",
+      "grade": 9
+    },
+    {
+      "id": 2,
+      "name": "Math",
+      "grade": 9
+    },
+    {
+      "name": "English",
+      "grade": "9",
+      "id": 3
+    },
+    {
+      "name": "Social",
+      "grade": "8",
+      "id": 4
+    }
+  ],
+  "lesson_groups": [
+    {
+      "id": 1,
+      "name": "Physics",
+      "courseId": 1
+    },
+    {
+      "id": 2,
+      "name": "Chemistry",
+      "courseId": 1
+    },
+    {
+      "name": "Trigonometry",
+      "courseId": 2,
+      "id": 4
+    },
+    {
+      "name": "Grammer",
+      "courseId": 3,
+      "id": 5
+    },
+    {
+      "name": "Algebra",
+      "courseId": 2,
+      "id": 6
+    },
+    {
+      "name": "Social problems",
+      "courseId": 4,
+      "id": 7
+    }
+  ],
+  "lessons": [
+    {
+      "name": "Light lesson",
+      "pass_percentage": "20",
+      "access_type": "trial",
+      "lessonGroupId": 1,
+      "image": null,
+      "file": null,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Thermodynamics lesson",
+      "image": null,
+      "pass_percentage": 40,
+      "access_type": "trial",
+      "lessonGroupId": 1,
+      "file": null
+    },
+    {
+      "id": 3,
+      "name": "Organic lesson",
+      "image": null,
+      "pass_percentage": 32,
+      "access_type": "trial",
+      "lessonGroupId": 2,
+      "file": null
+    },
+    {
+      "id": 4,
+      "name": "Botany lesson",
+      "image": null,
+      "pass_percentage": 35,
+      "access_type": "trial",
+      "lessonGroupId": 3,
+      "file": null
+    },
+    {
+      "id": 5,
+      "name": "Trigono lesson 1",
+      "image": null,
+      "pass_percentage": 40,
+      "access_type": "trial",
+      "lessonGroupId": 4,
+      "file": null
+    }
+  ]
+}
